@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shivam Sagar</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<header class="header">
+    <a href="#" class="logo">Shivam Sagar </a>
+    <div class="bx bx-menu" id="menu-icon"></div>
+    <nav class="navbar">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Skills</a>
+        <a href="#">Projects</a>
+        <a href="#" class="active">Contact</a>
+        <span class="active-nav"></span>
+    </nav>
+</header>
+<section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me</span></h2>
+    <form action="https://formspree.io/f/mwkgqaeb" method="POST">
+        <div class="input-box">
+            <div class="input-field">
+                <input type="text" placeholder="Full Name" required>
+                <span class="focus"></span>
+            </div>
+            <div class="input-field">
+                <input type="email" placeholder="Email Address" required>
+                <span class="focus"></span>
+            </div>
+        </div>
+        <div class="input-box">
+            <div class="input-field">
+                <input type="number" placeholder="Mobile Number" required>
+                <span class="focus"></span>
+            </div>
+            <div class="input-field">
+                <input type="email" placeholder="Email Subject" required>
+                <span class="focus"></span>
+            </div>
+        </div>
+        <div class="textarea-field">
+            <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+            <span class="focus"></span>
+        </div>
+        <div class="btn-box btns">
+            <button onmouseover="subm()" onmouseout="submite()" onclick="msg()" type="button" id="submit" class="btn">Submit</button>
+        </div>
+        <span id="msg-span"></span>
+    </form>
+</section>
+<footer class="footer">
+    <div class="footer-text">
+        <p>Copyright &copy; 2023 by Shivam Sagar | All Right Reserved.</p>
+    </div>
+    <div class="footer-iconTop">
+        <a href="#"><i class="fa-solid fa-arrow-up fa-beat"></i></a>
+    </div>
+</footer>
+<script src="script.js"></script>
+</body>
+
+</html>
